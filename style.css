@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Tamil', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img img {
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.list {
+    margin-right: 500px;
+}
+
+.list__li {
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+
+
+}
+
+li {
+    color: #42220c;
+    margin-left: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 120px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 300px;
+    margin-top: 70px;
+}
+
+
+
+.left {
+    position: relative;
+    margin: 230px 10px 20px 60px;
+    width: 1000px;
+    height: 400px;
+
+}
+
+.left h1 {
+    font-size: 3rem;
+    color: #42220c;
+}
+
+.left h1 span {
+    font-size: 6rem;
+    margin-left: 80px;
+
+}
+
+.left p {
+    position: absolute;
+    line-height: 24px;
+    margin-top: 20px;
+    width: 570px;
+    font-weight: 400;
+    
+    
+
+}
+
+.left a {
+    position: absolute;
+    border: 1.5px solid #a5531d;
+    color: #fff;
+    background-color: #a5531d;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 90px;
+    margin-left: 370px;
+    text-decoration: none;
+}
+
+.right {
+    position: relative;
+    width: 900px;
+    height: 200px;
+    top: -10px;
+    left: 50px;
+}
+
+.right video {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: -150px;
+    object-fit: cover;
+    
+}
+
+.right img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    mix-blend-mode: screen;
+    top: -150px;
+    object-fit: cover;
+
+}
